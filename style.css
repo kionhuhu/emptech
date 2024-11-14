@@ -1,0 +1,31 @@
+#mySidebar {
+    width: 250px; 
+    background-color: #bd8a8a; 
+    position: fixed; 
+    left: 0;
+    height: 100%; 
+    overflow: auto; 
+    z-index: 1; 
+    transition: 0.3s; 
+}
+
+#mySidebar .w3-bar-item {
+    padding: 15px; 
+    font-size: 16px; 
+    color: #333; 
+    text-decoration: none;
+}
+
+#mySidebar .w3-bar-item:hover {
+    background-color: #ddd; 
+}
+
+#mySidebar .w3-large {
+    background-color: #f44336;
+    color: white; 
+    font-weight: bold; 
+}
+
+#mySidebar.show {
+    display: block; 
+}
